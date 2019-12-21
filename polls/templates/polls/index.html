@@ -1,6 +1,4 @@
-{% load static %}
-
-<link rel="stylesheet" type="text/css" href="{% static 'polls/css/index.css' %}">
+{% include "polls/css_connector.html" with page="index" %}
 
 {% if latest_question_list %}
     <ul>

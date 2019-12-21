@@ -1,6 +1,4 @@
-{% load static %}
-
-<link rel="stylesheet" type="text/css" href="{% static 'polls/css/detail.css' %}">
+{% include "polls/css_connector.html" with page="detail" %}
 
 <h1>{{ question.question_text }}</h1>
 
