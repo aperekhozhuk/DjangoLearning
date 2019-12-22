@@ -5,3 +5,9 @@ li a {
 body {
     background: white url("../images/background.jpg") no-repeat;
 }
+
+h1 {
+    text-align: center;
+    border: 1px dotted blue;
+    border-radius: 5px;
+}
