@@ -12,6 +12,13 @@
     <header><h1>Welcome to the polls app! It's header that common for all pages for now, 
         just like example of templates extending
     </h1></header>
+
+    {% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+    {% endif %}
+
     {% block content %}
     {% endblock %}
 </body>
