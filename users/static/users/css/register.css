@@ -1,0 +1,7 @@
+form {
+    border: 1px dotted black;
+}
+
+form input {
+    display: block;
+}

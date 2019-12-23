@@ -1,5 +1,9 @@
 {% extends 'polls/base.html'%}
 
+{% block styles %}
+    {% include "users/css_connector.html" with page="register" %}
+{% endblock %}
+
 {% block content %}
     <div class="register-form">
         <form method="POST">
